@@ -1,0 +1,58 @@
+.cards-all {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 0; /* Certifique-se de que a imagem de fundo esteja atrás dos cards */
+}
+
+.card {
+    width: 390px;
+    background: rgba(0, 0, 0, 0.418);
+    padding: .4em;
+    border-radius: 20px;
+    height: 538px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+  
+  .card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 198px;
+    border-radius: 20px;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .place-name, .place-location {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: white;
+  }
+    
+  .buttonsall {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    background-color: #ffffffa1;
+}
+
+.place-description {
+    font-size: 0.9em;
+}
+
+.link-google{
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
