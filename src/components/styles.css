@@ -38,7 +38,7 @@
     color: white;
   }
     
-  .buttonsall {
+  .buttonsall, .fechar {
     padding: 5px 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -55,4 +55,16 @@
     font-weight: 800;
     text-decoration: none;
     color: black;
+}
+
+dialog::backdrop{
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+dialog{
+  border-radius: 15px;
+  box-shadow: 0 0 1em rgb(0, 0, 0);
+  width: 60%;
+  top: 40%;
+  bottom: 40%;
 }

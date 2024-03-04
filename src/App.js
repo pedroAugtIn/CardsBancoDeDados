@@ -3,13 +3,15 @@
 
 import './App.css';
 import CardsdeImagens from './components';
+import PopupDescrição from './components/popup';
 import "./components/styles.css";
 
 
 function App() {
   return (
     <div className="App">
-      <CardsdeImagens />
+    <PopupDescrição showModal/>
+    <CardsdeImagens />
     </div>
   );
 }
